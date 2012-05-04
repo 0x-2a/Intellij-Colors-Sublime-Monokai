@@ -1,5 +1,5 @@
-Intellij-Colors-Sublime-Monokai
-===============================
+Intellij Colors: Sublime Monokai Theme v2
+=========================================
 
 Dark color theme for Intellij based on Sublime Text 2&#39;s Monokai Theme
 
