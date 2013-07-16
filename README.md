@@ -28,11 +28,17 @@ Supported Languages:
 	HTML
 	Jade
 	JavaScript
+	JSON
 	JSP
 	LESS
 	PHP
 	Python
 	SASS/SCSS
+	Scala
 	SQL
 	XML
 	Diff
+
+Requested Languages:
+	AppleScript
+	(Open an issue if you want me to add support)
