@@ -40,5 +40,6 @@ Supported Languages:
 	Diff
 
 Requested Languages:
+
 	AppleScript
 	(Open an issue if you want me to add support)
