@@ -1,4 +1,4 @@
-Intellij Colors: Sublime Monokai Theme v5
+Intellij Colors: Sublime Monokai Theme v6
 =========================================
 
 Dark color theme for Intellij based on Sublime Text 2&#39;s Monokai Theme
@@ -9,7 +9,30 @@ To install
 - Select Sublime Monokai as the theme in Settings -> Editor -> Colors & Fonts
 
 Latest Changes
-- Reduced brown hue from background
+- Changed background to have less brown hue
 - SCSS and SASS changes
+- Update VCS annotions gutter
 - Added support for Python
-- Updated to version 12 format
+- Added support for PHP
+- Added IJ version 12 support
+
+Supported Languages:
+
+	Java
+	Bash
+	CoffeScript
+	CSS
+	Gradle
+	Groovy
+	Handlebars/Mustache
+	HTML
+	Jade
+	JavaScript
+	JSP
+	LESS
+	PHP
+	Python
+	SASS/SCSS
+	SQL
+	XML
+	Diff
