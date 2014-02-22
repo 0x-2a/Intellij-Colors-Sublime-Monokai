@@ -32,6 +32,7 @@ Supported Languages:
 	JSP
 	LESS
 	PHP
+	Puppet
 	Python
 	SASS/SCSS
 	Scala
@@ -42,4 +43,7 @@ Supported Languages:
 Requested Languages:
 
 	AppleScript
+	Flex/Actionscript/MXML
+	Haskell
+	Objective C (for Appcode)
 	(Open an issue if you want me to add support)
