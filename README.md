@@ -32,6 +32,7 @@ Supported Languages:
 	JSP
 	LESS
 	PHP
+	Puppet
 	Python
 	SASS/SCSS
 	Scala
