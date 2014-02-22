@@ -917,11 +917,16 @@
             </value>
         </option>
         <option name="INTERFACE_NAME_ATTRIBUTES">
-            <value />
+            <value/>
+        </option>
+        <option name="Identifier">
+            <value>
+                <option name="FOREGROUND" value="cc7832"/>
+            </value>
         </option>
         <option name="Instance field">
             <value>
-                <option name="FOREGROUND" value="f92772" />
+                <option name="FOREGROUND" value="f92772"/>
             </value>
         </option>
         <option name="Instance property reference ID">
@@ -1351,14 +1356,19 @@
         </option>
         <option name="OGNL.STRING">
             <value>
-                <option name="FOREGROUND" value="48ff60" />
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="Operator or identifier">
+            <value>
+                <option name="FOREGROUND" value="f9276c"/>
             </value>
         </option>
         <option name="PARAMETER_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ff992f" />
-                <option name="EFFECT_COLOR" value="ffffff" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="FOREGROUND" value="ff992f"/>
+                <option name="EFFECT_COLOR" value="ffffff"/>
+                <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
         <option name="PHP_KEYWORD">
@@ -1585,22 +1595,39 @@
         </option>
         <option name="QL_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="48ff60" />
+                <option name="FOREGROUND" value="48ff60"/>
             </value>
         </option>
         <option name="QL_STRING">
             <value>
-                <option name="FOREGROUND" value="bc95ff" />
+                <option name="FOREGROUND" value="bc95ff"/>
+            </value>
+        </option>
+        <option name="Quoted number">
+            <value>
+                <option name="FOREGROUND" value="94d7ff"/>
+            </value>
+        </option>
+        <option name="Quoted string">
+            <value>
+                <option name="FOREGROUND" value="97c07f"/>
+            </value>
+        </option>
+        <option name="Quoted text">
+            <value>
+                <option name="FOREGROUND" value="f1ffff"/>
+                <option name="BACKGROUND" value="2b2b2b"/>
+                <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
-            <value />
+            <value/>
         </option>
         <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ff9720" />
-                <option name="EFFECT_COLOR" value="ffffff" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="FOREGROUND" value="ff9720"/>
+                <option name="EFFECT_COLOR" value="ffffff"/>
+                <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
         <option name="REGEXP.BRACES">
@@ -1837,25 +1864,59 @@
         </option>
         <option name="Scala Template val">
             <value>
-                <option name="FOREGROUND" value="be15e2" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="be15e2"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="Scheme Braces">
+            <value/>
+        </option>
+        <option name="Scheme Character">
+            <value>
+                <option name="FOREGROUND" value="6a8759"/>
+            </value>
+        </option>
+        <option name="Scheme Comment">
+            <value>
+                <option name="FOREGROUND" value="808080"/>
+            </value>
+        </option>
+        <option name="Scheme Literal">
+            <value>
+                <option name="FOREGROUND" value="cc7832"/>
+            </value>
+        </option>
+        <option name="Scheme Numbers">
+            <value>
+                <option name="FOREGROUND" value="6897bb"/>
+            </value>
+        </option>
+        <option name="Scheme Parentheses">
+            <value/>
+        </option>
+        <option name="Scheme Strings">
+            <value>
+                <option name="FOREGROUND" value="6a8759"/>
             </value>
         </option>
         <option name="Shebang (#!) comment">
             <value>
-                <option name="FOREGROUND" value="71715e" />
+                <option name="FOREGROUND" value="71715e"/>
+            </value>
+        </option>
+        <option name="Special">
+            <value>
+                <option name="FOREGROUND" value="cc7832"/>
             </value>
         </option>
         <option name="Special symbol">
             <value>
-                <option name="FOREGROUND" value="dc6033" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FOREGROUND" value="f9276c" />
             </value>
         </option>
         <option name="Standard function">
             <value>
-                <option name="FOREGROUND" value="2cdc3b" />
-                <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="e6da74" />
             </value>
         </option>
         <option name="Static field">
@@ -1966,7 +2027,7 @@
         </option>
         <option name="Type or constructor">
             <value>
-                <option name="FOREGROUND" value="268bd3" />
+        <option name="FOREGROUND" value="e6da74" />
             </value>
         </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -2060,7 +2121,23 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ff0000" />
+                <option name="FOREGROUND" value="ff0000"/>
+            </value>
+        </option>
+        <option name="Wrong number">
+            <value>
+                <option name="FOREGROUND" value="ff0000"/>
+            </value>
+        </option>
+        <option name="Wrong string">
+            <value>
+                <option name="FOREGROUND" value="ff0000"/>
+            </value>
+        </option>
+        <option name="Wrong token">
+            <value>
+                <option name="EFFECT_COLOR" value="ff0000"/>
+                <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME">
