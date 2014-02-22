@@ -43,9 +43,11 @@ Supported Languages:
 	Diff
 
 Requested Languages:
+
 	Objective C (for Appcode)
 
 Not supported (no plugin support):
+
 	Flex/Actionscript/MXML
 	AppleScript
 
