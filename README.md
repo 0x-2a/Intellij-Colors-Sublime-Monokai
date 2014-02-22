@@ -20,11 +20,13 @@ Supported Languages:
 
 	Java
 	Bash
+	Clojure
 	CoffeScript
 	CSS
 	Gradle
 	Groovy
 	Handlebars/Mustache
+	Haskell
 	HTML
 	Jade
 	JavaScript
@@ -41,9 +43,10 @@ Supported Languages:
 	Diff
 
 Requested Languages:
-
-	AppleScript
-	Flex/Actionscript/MXML
-	Haskell
 	Objective C (for Appcode)
-	(Open an issue if you want me to add support)
+
+Not supported (no plugin support):
+	Flex/Actionscript/MXML
+	AppleScript
+
+Open an issue or pull request for support of a new language
