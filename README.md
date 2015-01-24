@@ -33,10 +33,14 @@ Supported Languages:
 	SQL
 	XML
 	Diff
+	Google Go
 
 Requested Languages:
 
 	Objective C (for Appcode)
+	CFML
+	Ruby
+
 
 Not supported (no plugin support):
 
