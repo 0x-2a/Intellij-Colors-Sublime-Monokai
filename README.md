@@ -35,12 +35,11 @@ Supported Languages:
 	Diff
 	Google Go
 	Ruby
+	CFML
 
 Requested Languages:
 
 	Objective C (for Appcode)
-	CFML
-
 
 Not supported (no plugin support):
 

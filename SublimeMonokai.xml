@@ -62,7 +62,7 @@
         </option>
         <option name="Attribute name">
             <value>
-                <option name="FOREGROUND" value="bd93ff"/>
+                <option name="FOREGROUND" value="e6da74"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -545,7 +545,7 @@
         </option>
         <option name="CfmlString">
             <value>
-                <option name="FOREGROUND" value="ff00"/>
+                <option name="FOREGROUND" value="bc95ff"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -589,6 +589,13 @@
         <option name="Clojure Strings">
             <value>
                 <option name="FOREGROUND" value="a581ff"/>
+                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="Comment">
+            <value>
+                <option name="FOREGROUND" value="75715e"/>
+                <option name="FONT_TYPE" value="2"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -1147,7 +1154,7 @@
         </option>
         <option name="Identifier">
             <value>
-                <option name="FOREGROUND" value="cc7832"/>
+                <option name="FOREGROUND" value="bce9fd"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -1625,7 +1632,7 @@
         </option>
         <option name="Number sign">
             <value>
-                <option name="FOREGROUND" value="f8f858"/>
+                <option name="FOREGROUND" value="48ff60"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -2702,7 +2709,7 @@
         </option>
         <option name="Tag name">
             <value>
-                <option name="FOREGROUND" value="7cff"/>
+                <option name="FOREGROUND" value="fd9620"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
