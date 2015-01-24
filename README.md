@@ -34,12 +34,12 @@ Supported Languages:
 	XML
 	Diff
 	Google Go
+	Ruby
 
 Requested Languages:
 
 	Objective C (for Appcode)
 	CFML
-	Ruby
 
 
 Not supported (no plugin support):
@@ -47,4 +47,4 @@ Not supported (no plugin support):
 	Flex/Actionscript/MXML
 	AppleScript
 
-Open an issue or pull request for support of a new language
+To request support for a language, please fork, create a code sample in the code-samples folder, then create a pull request. I will review it and create a scheme. Feel free to PR your own version for a language.
