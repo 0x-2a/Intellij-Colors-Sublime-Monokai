@@ -1,0 +1,341 @@
+/*
+  blue: #02D3B8
+  tan: #F4926B
+*/
+
+body {
+  background-color: #f7f7f7;
+  color: #3e3e3e;
+  .text-muted {
+    color: #787878;
+  }
+
+  font-family: "Tempus-Sans";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Tempus-Sans";
+}
+
+a, p, dl, dd, dt {
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Tempus-Sans";
+  src: url('../fonts/TempusSans.TTF'), url('../fonts/TempusSans.eot'); /* IE */
+}
+
+@font-face {
+  font-family: "Dense-Regular";
+  src: url('../fonts/dense-regular.ttf'), url('../fonts/dense-regular.eot'); /* IE */
+}
+
+.careers, .about {
+  a, p, dl, dd, dt, span, h2 {
+    font-family: Helvetica Neue, Arial;
+  }
+
+  &.about p {
+    font-weight: normal;
+  }
+
+  &.about h2 {
+    font-weight: 300;
+  }
+}
+
+.menu {
+  @media only screen and (max-width: 767px) {
+    .menu-header {
+      &:first-of-type {
+        margin-top: .75em !important;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .hidden-400 {
+      display: none;
+    }
+
+    .visible-400 {
+      display: inherit;
+    }
+  }
+  @media only screen and (min-width: 401px) {
+    .hidden-400 {
+      display: inherit;
+    }
+
+    .visible-400 {
+      display: none;
+    }
+  }
+
+  max-width: 56em;
+  text-align: center;
+
+  h4, h5 {
+    &, span {
+      font-family: Cambria, Georgia, serif;
+    }
+  }
+
+  .menu-header {
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    margin-top: .5em;
+    font-family: Dense-Regular;
+    font-size: 350%;
+    color: black;
+  }
+
+  .menu-section-header {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+
+    &.more-margin {
+      margin-top: 3em;
+    }
+
+    h3 {
+      width: 100%;
+      border-bottom: 1px solid #3E3E3E;
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+
+      span {
+        background: #f7f7f7;
+        padding: 0 10px;
+        font-family: Dense-Regular;
+        font-size: 160%;
+      }
+    }
+  }
+
+  .small-divider {
+    width: 4em;
+    border-top: 1px solid #3E3E3E;
+    margin: 0 auto;
+  }
+
+  .menu-list {
+
+  }
+
+  h4.menu-item {
+    font-weight: bolder;
+    color: black;
+
+    span.item-details {
+      font-weight: normal;
+      color: #3E3E3E;
+      margin-left: 6px;
+      margin-right: 6px;
+      font-style: italic;
+      font-size: 80%;
+    }
+  }
+
+  h5.menu-item-options {
+    font-style: italic;
+  }
+}
+
+.home {
+  p.lead {
+    font-family: Helvetica Neue, Arial;
+  }
+
+  @media only screen and (min-width: 768px) {
+    h2 {
+      margin-left: -4px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    h2 {
+      margin-left: -1px;
+    }
+  }
+}
+
+.carousel .item {
+  background-color: #f7f7f7;
+}
+
+.navbar-wrapper .container {
+  @media only screen and (min-width: 768px) {
+    width: 540px;
+  }
+  //  @media only screen and (min-width : 768px) { width: 600px; }
+
+  #nav-facebook {
+    a {
+      padding: 0;
+    }
+    img {
+      margin-top: 12px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 25px;
+    }
+  }
+
+  #nav-instagram {
+    a {
+      padding: 0;
+    }
+    img {
+      margin-top: 12px;
+      margin-left: 10px;
+      height: 25px;
+    }
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #cccccc;
+  }
+
+  .navbar.navbar-inverse.navbar-static-top {
+    background-color: #d5d5d5;
+    border: none;
+    background-image: -webkit-linear-gradient(top, #fcfcfc 100%, #e4e4e4 0%);
+    background-image: linear-gradient(to bottom, #fcfcfc 0%, #e4e4e4 100%);
+    background-repeat: repeat-x;
+    text-shadow: none;
+
+    .navbar-nav .active a {
+      background-image: -webkit-linear-gradient(top, #ff9c6c 0%, #F4926B 100%);
+      background-image: linear-gradient(to bottom, #ff9c6c 0%, #F4926B 100%);
+      background-repeat: repeat-x;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: none;
+      text-shadow: none;
+      color: #FFF;
+    }
+
+    .navbar-nav li a {
+      color: #0D0D0D;
+      text-shadow: none;
+    }
+
+    .navbar-brand {
+      color: #4aa7b3;
+      text-shadow: none;
+      padding: 0;
+      img {
+        height: 35px;
+      }
+      padding-top: 6px;
+      padding-left: 26px;
+      padding-right: 26px;
+    }
+
+    .navbar-toggle:hover, .navbar-toggle:focus {
+      background-color: #d8815f;
+    }
+    .navbar-toggle {
+      border-color: #d8815f;
+      background-color: #f9946e;
+    }
+
+  }
+
+}
+
+.carousel-inner .item img {
+  height: 1000px;
+  max-width: none;
+  &.reg-height {
+    height: 500px;
+  }
+
+  &#resize-hot {
+    height: 500px;
+  }
+
+}
+
+.carousel-caption {
+  right: 20%;
+  left: 20%;
+  padding-bottom: 155px;
+  .capWrap {
+    //    background-color: rgba(248, 248, 248, 0.25);
+    //    padding:.25em;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .8);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+h2.featurette-heading {
+  margin-top: 0;
+}
+
+.featurette-divider {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #ff9d6b 0%, #F4926B 100%);
+  background-image: linear-gradient(to bottom, #ff996f 0%, #F4926B 100%);
+  background-repeat: repeat-x;
+  border-color: #F4926B;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #f9946e;
+  background-position: 0 -15px;
+  box-shadow: none;
+  border-color: #d8815f;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #ec886d;
+  border-color: #ec886d;
+  box-shadow: none;
+}
+
+#mapIt {
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+
+#culturedBig {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  //  max-width:90%;
+  //  @media only screen and (min-width : 768px) { width: 600px; }
+
+}
+
+footer {
+  width: 100%;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+  color: #949494;
+}
+
+.menu-image {
+  height: 300px;
+}
+
+#myCarousel {
+  margin-bottom: 30px;
+}

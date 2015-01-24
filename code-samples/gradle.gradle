@@ -1,0 +1,101 @@
+apply plugin: 'jetty'
+apply plugin: 'war'
+
+ext.manifest = true
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.gradle.api.plugins:gradle-tomcat-plugin:0.9.9'
+    }
+}
+
+jettyRun {
+    httpPort = 8080
+    stopPort = 8081
+}
+
+tomcatRun {
+    httpPort = 8080
+    httpsPort = 8081
+    enableSSL = true
+}
+
+war {
+    baseName = 'pointdrive'
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.apache.httpcomponents:httpclient:4.2.2'
+    }
+}
+
+dependencies {
+    def tomcatVersion = '7.0.42'
+
+    //**********************************************************
+    // Actual compile dependencies
+    //**********************************************************
+    compile("org.springframework:spring-web:3.2.1.RELEASE") {
+        exclude module: 'commons-logging'
+    }
+    compile("org.springframework:spring-webmvc:3.2.1.RELEASE") {
+        exclude module: 'commons-logging'
+    }
+    compile 'javax.mail:mail:1.4.7'
+
+    // API documentation
+    compile ("com.knappsack:swagger4spring-web:0.3.3") {
+        exclude group: 'ch.qos.logback'
+    }
+    providedCompile "javax.servlet:javax.servlet-api:3.0.1"
+
+    //**********************************************************
+    // Runtime only dependencies (included so that the WAR task
+    // includes in the WAR file)
+    //**********************************************************
+    runtime "log4j:log4j:1.2.17"
+    runtime "log4j:apache-log4j-extras:1.2.17"
+    runtime "org.slf4j:slf4j-log4j12:1.7.2"
+    runtime "org.slf4j:jcl-over-slf4j:1.7.2"
+
+    runtime "com.fasterxml.jackson.datatype:jackson-datatype-joda:2.1.0"
+
+    runtime "org.springframework.security:spring-security-config:3.1.3.RELEASE"
+    runtime "org.springframework.security:spring-security-taglibs:3.1.3.RELEASE"
+
+    runtime "javax.servlet:jstl:1.2"
+
+    // tomcat7
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+            "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}"
+    tomcat("org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}") {
+        exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
+    }
+
+    runtime ':carrot-log4j-aws-sns:1.1.3-SNAPSHOT'
+
+    runtime 'org.apache.httpcomponents:fluent-hc:4.2.2'
+    runtime 'org.apache.httpcomponents:httpclient:4.2.2'
+    runtime 'org.apache.httpcomponents:httpclient-cache:4.2.2'
+    runtime 'com.googlecode.json-simple:json-simple:1.1.1'
+
+    //**********************************************************
+    runtime 'org.microemu:microemulator:2.0.4'
+    runtime("com.thetransactioncompany:cors-filter:1.3.2") {
+        exclude module: "servlet-api"
+    }
+    runtime "cglib:cglib:2.2.2"
+
+
+    //**********************************************************
+    // Test Dependencies
+    //**********************************************************
+    testCompile "org.springframework:spring-test:3.1.3.RELEASE"
+    testCompile "org.springframework:spring-test-mvc:1.0.0.M2"
+
+}
