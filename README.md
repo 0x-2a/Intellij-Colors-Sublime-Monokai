@@ -36,6 +36,7 @@ Supported Languages:
 	Google Go
 	Ruby
 	CFML
+	LaTeX
 	Objective C (Use Appcode/SublimeMonokai.jar)
 
 Not supported (no plugin support):

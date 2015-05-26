@@ -1417,6 +1417,21 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="LATEX.ARGUMENT">
+            <value>
+                <option name="FOREGROUND" value="f8fff7"/>
+            </value>
+        </option>
+        <option name="LATEX.BRACKET">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="LATEX.INSTRUCTION">
+            <value>
+                <option name="FOREGROUND" value="66d9ef"/>
+            </value>
+        </option>
         <option name="LESS_INJECTED_CODE">
             <value>
                 <option name="FOREGROUND" value="e6da74"/>
