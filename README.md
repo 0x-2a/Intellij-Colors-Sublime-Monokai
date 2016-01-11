@@ -8,6 +8,10 @@ To install
 - Intellij -> File -> Import Settings -> Select Jar
 - Select Sublime Monokai as the theme in Settings -> Editor -> Colors & Fonts
 
+Special thanks to collaborators:
+- [murtaza52](https://github.com/murtaza52) for clojure support
+- [DecKen](https://github.com/DecKen) and [Sven Bendel](https://github.com/ubuntudroid) for carat identifiers
+
 Supported Languages:
 
 	Java
