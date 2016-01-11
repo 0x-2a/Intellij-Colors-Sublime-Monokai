@@ -1137,6 +1137,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
+                <option name="BACKGROUND" value="003E42"/>
                 <option name="ERROR_STRIPE_COLOR" value="ccccff"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
