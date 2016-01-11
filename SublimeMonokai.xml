@@ -1137,9 +1137,8 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="003E42"/>
-                <option name="ERROR_STRIPE_COLOR" value="ccccff"/>
-                <option name="EFFECT_TYPE" value="0"/>
+                <option name="BACKGROUND" value="3d556b" />
+                <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -2830,8 +2829,8 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="ERROR_STRIPE_COLOR" value="ffcdff"/>
-                <option name="EFFECT_TYPE" value="0"/>
+                <option name="BACKGROUND" value="4f5961" />
+                <option name="ERROR_STRIPE_COLOR" value="ffcdff" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
