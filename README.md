@@ -1,12 +1,13 @@
-Intellij Colors: Sublime Monokai Theme v8.1
+Intellij Colors: Sublime Monokai Theme v8.2
 =========================================
 
 Dark color theme for Intellij inspired by Sublime Text&#39;s Monokai Theme. Also works in other Jetbrains products including Webstorm, PyCharm, RubyMine, and PhPStorm.
 
 To install 
 - Download or build the jar (buildJar.sh)
-- Intellij -> File -> Import Settings -> Select Jar
+- Intellij -> File -> Import Settings -> Select Jar (Or icls -> SublimeMonokai.xml)
 - Select Sublime Monokai as the theme in Settings -> Editor -> Colors & Fonts
+- Note: If you can't see "Import Settings" anymore, temporarily disable you Jetbrains Settings Sync(File -> Disable Settings Sync)
 
 Special thanks to collaborators:
 - [murtaza52](https://github.com/murtaza52) for clojure support
@@ -20,20 +21,21 @@ Supported Languages:
 	Clojure
 	CoffeScript
 	CSS
+	C++ (CLion)
 	Gradle
 	Groovy
 	Handlebars/Mustache
 	Haskell
 	HTML
 	Jade
-	JavaScript
-	TypeScript
+	JavaScript (Webstorm)
+	TypeScript (Webstorm)
 	JSON
 	JSP
 	LESS
 	PHP
 	Puppet
-	Python
+	Python 2 and 3 (PyCharm)
 	SASS/SCSS
 	Scala
 	SQL

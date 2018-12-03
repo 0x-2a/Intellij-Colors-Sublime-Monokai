@@ -654,11 +654,17 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
                 <option name="FOREGROUND" value="f1f1f1"/>
                 <option name="BACKGROUND" value="212121"/>
                 <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="DEFAULT_GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
             </value>
         </option>
         <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT">
@@ -678,6 +684,12 @@
             <value>
                 <option name="FOREGROUND" value="66d9ef"/>
                 <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER"/>
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="bce9fd"/>
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
@@ -701,12 +713,18 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="DEFAULT_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_PARENTHS">
             <value>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="fd9620"/>
@@ -1781,6 +1799,11 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="NOT_TOP_FRAME_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="7b"/>
+            </value>
+        </option>
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="b2b2b2"/>
@@ -1798,6 +1821,67 @@
             <value>
                 <option name="FOREGROUND" value="48ff60"/>
                 <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="OC.CONDITIONALLY_NOT_COMPILED">
+            <value>
+                <option name="FOREGROUND" value="bc95ff"/>
+            </value>
+        </option>
+        <option name="OC.DIRECTIVE">
+            <value>
+                <option name="FOREGROUND" value="66d9ef"/>
+                <option name="BACKGROUND" value="2c2c2c"/>
+            </value>
+        </option>
+        <option name="OC.FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="f1f1f1"/>
+            </value>
+        </option>
+        <option name="OC.GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="OC.LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="bce9fd"/>
+            </value>
+        </option>
+        <option name="OC.MACRONAME">
+            <value>
+                <option name="FOREGROUND" value="bce9fd"/>
+            </value>
+        </option>
+        <option name="OC.NAMESPACE_LIKE">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="OC.OVERLOADED_OPERATOR">
+            <value>
+                <option name="FOREGROUND" value="f9276c"/>
+            </value>
+        </option>
+        <option name="OC.PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
+        <option name="OC.STRUCT_FIELD">
+            <value>
+                <option name="FOREGROUND" value="bce9fd"/>
+            </value>
+        </option>
+        <option name="OC.STRUCT_LIKE">
+            <value>
+                <option name="FOREGROUND" value="e6da74"/>
+            </value>
+        </option>
+        <option name="OC.TYPEDEF">
+            <value>
+                <option name="FOREGROUND" value="66d9ef"/>
             </value>
         </option>
         <option name="OGNL.BACKGROUND">
@@ -1959,6 +2043,9 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="PY.ANNOTATION">
+            <value/>
+        </option>
         <option name="PY.BUILTIN_NAME">
             <value>
                 <option name="FOREGROUND" value="e6da74"/>
@@ -1967,13 +2054,11 @@
         </option>
         <option name="PY.CLASS_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="48ff60"/>
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
         <option name="PY.DECORATOR">
             <value>
-                <option name="FOREGROUND" value="48ff60"/>
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
@@ -2008,6 +2093,11 @@
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
+        <option name="PY.METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="e6da74"/>
+            </value>
+        </option>
         <option name="PY.NUMBER">
             <value>
                 <option name="FOREGROUND" value="bc95ff"/>
@@ -2022,19 +2112,19 @@
         </option>
         <option name="PY.PREDEFINED_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="48ff60"/>
+                <option name="FOREGROUND" value="e6da74"/>
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
         <option name="PY.PREDEFINED_USAGE">
             <value>
-                <option name="FOREGROUND" value="48ff60"/>
+                <option name="FOREGROUND" value="e6da74"/>
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
         <option name="PY.SELF_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="bce9fd"/>
+                <option name="FOREGROUND" value="66d9ef"/>
                 <option name="EFFECT_TYPE" value="-1"/>
             </value>
         </option>
@@ -2122,6 +2212,31 @@
                 <option name="FOREGROUND" value="f1ffff"/>
                 <option name="BACKGROUND" value="2b2b2b"/>
                 <option name="EFFECT_TYPE" value="5"/>
+            </value>
+        </option>
+        <option name="RAINBOW_COLOR0">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
+        <option name="RAINBOW_COLOR1">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
+        <option name="RAINBOW_COLOR2">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
+        <option name="RAINBOW_COLOR3">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
+            </value>
+        </option>
+        <option name="RAINBOW_COLOR4">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
             </value>
         </option>
         <option name="RDOC_DIRECTIVE">
