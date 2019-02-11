@@ -992,6 +992,84 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="GO_BUILTIN_CONSTANT">
+          <value>
+            <option name="FOREGROUND" value="66d9ef" />
+          </value>
+        </option>
+        <option name="GO_BUILTIN_FUNCTION_CALL">
+          <value>
+            <option name="FOREGROUND" value="66d9ef" />
+          </value>
+        </option>
+        <option name="GO_BUILTIN_TYPE_REFERENCE">
+          <value>
+            <option name="FOREGROUND" value="66d9ef" />
+          </value>
+        </option>
+        <option name="GO_BUILTIN_VARIABLE">
+          <value>
+            <option name="FOREGROUND" value="66d9ef" />
+          </value>
+        </option>
+        <option name="GO_COMMENT_KEYWORD">
+          <value>
+            <option name="FONT_TYPE" value="1" />
+            <option name="EFFECT_COLOR" value="808080" />
+            <option name="EFFECT_TYPE" value="1" />
+          </value>
+        </option>
+        <option name="GO_FUNCTION_PARAMETER">
+          <value>
+            <option name="FOREGROUND" value="fd9620" />
+          </value>
+        </option>
+        <option name="GO_KEYWORD">
+          <value>
+            <option name="FOREGROUND" value="66d9ef" />
+          </value>
+        </option>
+        <option name="GO_LOCAL_FUNCTION_CALL">
+          <value>
+            <option name="FOREGROUND" value="e6da74" />
+          </value>
+        </option>
+        <option name="GO_LOCAL_VARIABLE">
+          <value>
+            <option name="FOREGROUND" value="bce9fd" />
+          </value>
+        </option>
+        <option name="GO_LOCAL_VARIABLE_CALL">
+          <value>
+            <option name="FOREGROUND" value="e6da74" />
+          </value>
+        </option>
+        <option name="GO_METHOD_RECEIVER">
+          <value>
+            <option name="FOREGROUND" value="fd9620" />
+          </value>
+        </option>
+        <option name="GO_PACKAGE">
+          <value>
+            <option name="FOREGROUND" value="bce9fd" />
+            <option name="EFFECT_TYPE" value="1" />
+          </value>
+        </option>
+        <option name="GO_PACKAGE_EXPORTED_VARIABLE">
+          <value>
+            <option name="FOREGROUND" value="bce9fd" />
+          </value>
+        </option>
+        <option name="GO_STRUCT_EXPORTED_MEMBER">
+          <value>
+            <option name="FOREGROUND" value="ffffff" />
+          </value>
+        </option>
+        <option name="GO_STRUCT_LOCAL_MEMBER">
+          <value>
+            <option name="FOREGROUND" value="ffffff" />
+          </value>
+        </option>
         <option name="GROOVY_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="66d9ef"/>
