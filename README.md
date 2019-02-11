@@ -16,8 +16,11 @@ Special thanks to collaborators:
 Supported Languages:
 
 	Java
-	Kotlin
+	Python
+	JavaScript
+	Go
 	Bash
+	Kotlin
 	Clojure
 	CoffeScript
 	CSS
@@ -41,7 +44,6 @@ Supported Languages:
 	SQL
 	XML
 	Diff
-	Google Go
 	Ruby
 	CFML
 	LaTeX
