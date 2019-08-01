@@ -1,4 +1,4 @@
-Intellij Colors: Sublime Monokai Theme v8.4
+Intellij Colors: Sublime Monokai Theme v8.5
 =========================================
 
 Dark color theme for Intellij inspired by Sublime Text&#39;s Monokai Theme. Also works in other Jetbrains products including Webstorm, PyCharm, GoLand, RubyMine, and PhPStorm.
@@ -15,39 +15,38 @@ Special thanks to collaborators:
 
 Supported Languages:
 
-	Java
-	Python
-	JavaScript
-	Go
-	Bash
-	Kotlin
-	Clojure
-	CoffeScript
-	CSS
+	Java (IJ)
+    Golang (IJ, Goland)
+    Python 2 and 3 (IJ, PyCharm)
+    JavaScript (IJ, Webstorm)
+    TypeScript (IJ, Webstorm)
+	CSS/SASS/SCSSS (IJ, Webstorm)
 	C++ (CLion)
-	Gradle
-	Groovy
-	Handlebars/Mustache
-	Haskell
+	Bash (tranisitioning to 2019 plugin)
 	HTML
-	Jade
-	JavaScript (Webstorm)
-	TypeScript (Webstorm)
 	JSON
 	JSP
 	LESS
-	PHP
-	Puppet
-	Python 2 and 3 (PyCharm)
-	SASS/SCSS
-	Scala
 	SQL
 	XML
 	Diff
-	Ruby
-	CFML
-	LaTeX
-	Objective C (Use Appcode/SublimeMonokai.jar)
+	YAML
+	LaTeX  (< 2018)
+	Kotlin (< 2018, need maintainer)
+	CFML (< 2015, need maintainer)
+	Clojure  (< 2015, need maintainer)
+	CoffeScript (< 2015, need maintainer)
+	Gradle  (< 2015, need maintainer)
+	Groovy  (< 2015, need maintainer)
+	Puppet (< 2015, need maintainer)
+	Handlebars/Mustache  (< 2015, need maintainer)
+	Haskell  (< 2015, need maintainer)
+	Jade  (< 2015, need maintainer)
+	PHP (phpstorm < 2015, need maintainer)
+	Scala (< 2015, need maintainer)
+	Ruby (< 2015, need maintainer)
+	
+	Objective C (< 2015, Use Appcode/SublimeMonokai.jar)
 
 Not supported (no plugin support):
 
