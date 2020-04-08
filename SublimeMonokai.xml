@@ -167,7 +167,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="5d4a4a"/>
+                <option name="BACKGROUND" value="4d3b3b"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -700,6 +700,11 @@
             </value>
         </option>
         <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER"/>
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="bce9fd"/>
+            </value>
+        </option>
         <option name="DEFAULT_METADATA" baseAttributes="TEXT"/>
         <option name="DEFAULT_NUMBER">
             <value>
@@ -911,6 +916,16 @@
                 <option name="EFFECT_COLOR" value="d13534"/>
                 <option name="ERROR_STRIPE_COLOR" value="cf5b56"/>
                 <option name="EFFECT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="6c6c6c"/>
+            </value>
+        </option>
+        <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="696969"/>
             </value>
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
