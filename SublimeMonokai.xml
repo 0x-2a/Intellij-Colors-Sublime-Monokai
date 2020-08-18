@@ -1826,7 +1826,11 @@
             <value>
                 <option name="FOREGROUND" value="ff64d9"/>
                 <option name="FONT_TYPE" value="1"/>
-                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="MAGIC_MEMBER_ACCESS">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
             </value>
         </option>
         <option name="MARKDOWN.AUTO_LINK">
@@ -1891,8 +1895,106 @@
         </option>
         <option name="MARKDOWN.WIKI_LINK">
             <value>
-                <option name="FOREGROUND" value="bce9fd"/>
-                <option name="EFFECT_TYPE" value="-1"/>
+                <option name="FOREGROUND" value="bce9fd" />
+            </value>
+        </option>
+        <option name="MARKDOWN_BOLD">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="MARKDOWN_CODE_SPAN">
+            <value>
+                <option name="FOREGROUND" value="bce9fd" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_1">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_2">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_3">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_4">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_5">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HEADER_LEVEL_6">
+            <value>
+                <option name="FOREGROUND" value="48ff60" />
+            </value>
+        </option>
+        <option name="MARKDOWN_IMAGE">
+            <value />
+        </option>
+        <option name="MARKDOWN_ITALIC">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="MARKDOWN_LINK_DESTINATION">
+            <value>
+                <option name="FOREGROUND" value="bce9fd" />
+                <option name="BACKGROUND" value="212121" />
+            </value>
+        </option>
+        <option name="MARKDOWN_LINK_TEXT">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="FONT_TYPE" value="2" />
+                <option name="EFFECT_COLOR" value="ff" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="MARKDOWN_LINK_TITLE">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="MARKDOWN_LIST_ITEM">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+            </value>
+        </option>
+        <option name="MARKDOWN_ORDERED_LIST">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+            </value>
+        </option>
+        <option name="MARKDOWN_STRIKE_THROUGH">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="EFFECT_COLOR" value="404040" />
+                <option name="EFFECT_TYPE" value="3" />
+            </value>
+        </option>
+        <option name="MARKDOWN_TEXT">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
+                <option name="BACKGROUND" value="2c2c2c" />
+            </value>
+        </option>
+        <option name="MARKDOWN_UNORDERED_LIST">
+            <value>
+                <option name="FOREGROUND" value="bc95ff" />
             </value>
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -2046,10 +2148,29 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="PHP_KEYWORD">
+        <option name="PHP_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="PHP_FUNCTION">
             <value>
                 <option name="FOREGROUND" value="e6da74"/>
-                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="e6da74"/>
+            </value>
+        </option>
+        <option name="PHP_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
+            </value>
+        </option>
+        <option name="PHP_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="66d9ef"/>
             </value>
         </option>
         <option name="PHP_NUMBER">
@@ -2061,13 +2182,21 @@
         <option name="PHP_OPERATION_SIGN">
             <value>
                 <option name="FOREGROUND" value="f92772"/>
-                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="fd9620"/>
             </value>
         </option>
         <option name="PHP_SCRIPTING_BACKGROUND">
             <value>
                 <option name="BACKGROUND" value="282828"/>
-                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_STATIC_METHOD">
+            <value>
+                <option name="FOREGROUND" value="48ff60"/>
             </value>
         </option>
         <option name="PHP_STRING">
@@ -2079,7 +2208,11 @@
         <option name="PHP_TAG">
             <value>
                 <option name="FOREGROUND" value="fd9620"/>
-                <option name="EFFECT_TYPE" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_THIS_VAR">
+            <value>
+                <option name="FOREGROUND" value="66d9ef"/>
             </value>
         </option>
         <option name="PHP_VAR">
@@ -2872,6 +3005,7 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes=""/>
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2"/>
@@ -3073,10 +3207,16 @@
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
-        <option name="TS.TYPE_PARAMETER">
+        <option name="TS.DOC_MARKUP">
+            <value />
+        </option>
+        <option name="TS.TYPE_GUARD">
             <value>
-                <option name="EFFECT_TYPE" value="0"/>
+                <option name="BACKGROUND" value="494e49" />
             </value>
+        </option>
+        <option name="TS.TYPE_PARAMETER">
+            <value />
         </option>
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
             <value>
