@@ -18,12 +18,13 @@ Special thanks to collaborators:
 Supported Languages:
 
 	Java (IJ)
-    Golang (IJ, Goland)
-    Python 2 and 3 (IJ, PyCharm)
-    JavaScript (IJ, Webstorm)
-    TypeScript (IJ, Webstorm)
-	CSS/SASS/SCSSS (IJ, Webstorm)
+	Golang (IJ, Goland)
+	Python 2 and 3 (IJ, PyCharm)
+	JavaScript (IJ, Webstorm)
+	TypeScript (IJ, Webstorm)
+	CSS/SASS/SCSSS (IJ, Webstorm) 
 	C++ (CLion)
+	Rust (IJ, Clion)
 	Bash (tranisitioning to 2019 plugin)
 	Markdown
 	HTML
