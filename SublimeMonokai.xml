@@ -187,7 +187,6 @@
         <option name="CLASS_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="e5db74"/>
-                <option name="BACKGROUND" value="212121"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
@@ -1419,7 +1418,6 @@
         <option name="JAVA_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="66d9ef"/>
-                <option name="BACKGROUND" value="212121"/>
                 <option name="EFFECT_TYPE" value="0"/>
             </value>
         </option>
