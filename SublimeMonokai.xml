@@ -10,6 +10,7 @@
         <option name="CARET_COLOR" value="ffffff"/>
         <option name="CARET_ROW_COLOR" value="49483e"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="151613"/>
+        <option name="DOCUMENTATION_COLOR" value="3c3f41"/>
         <option name="FILESTATUS_ADDED" value="fd000"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="b752dd"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="a0a047"/>
@@ -23,13 +24,15 @@
         <option name="LINE_NUMBERS_COLOR" value="8f908a"/>
         <option name="METHOD_SEPARATORS_COLOR" value="3f3f3f"/>
         <option name="MODIFIED_LINES_COLOR" value="304050"/>
-        <option name="NOTIFICATION_BACKGROUND" value="e9e9e9"/>
+        <option name="NOTIFICATION_BACKGROUND" value=""/>
         <option name="READONLY_FRAGMENT_BACKGROUND" value="484b58"/>
+        <option name="RECENT_LOCATIONS_SELECTION" value="3c3f41"/>
         <option name="RIGHT_MARGIN_COLOR" value="373737"/>
         <option name="SELECTED_INDENT_GUIDE" value="494949"/>
         <option name="SELECTION_BACKGROUND" value="7f8787"/>
         <option name="SOFT_WRAP_SIGN_COLOR" value="4f4f4f"/>
         <option name="TEARLINE_COLOR" value="696969"/>
+        <option name="TOOLTIP" value="3c3f41"/>
         <option name="WHITESPACES" value=""/>
     </colors>
     <attributes>
@@ -187,7 +190,13 @@
         <option name="CLASS_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="e5db74"/>
-                <option name="EFFECT_TYPE" value="0"/>
+                <option name="BACKGROUND" value="212121"/>
+            </value>
+        </option>
+        <option name="CODE_LENS_BORDER_COLOR">
+            <value>
+                <option name="BACKGROUND" value="3c3f41"/>
+                <option name="EFFECT_COLOR" value="595959"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.BAD_CHARACTER">
