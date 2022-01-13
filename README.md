@@ -1,4 +1,4 @@
-Intellij Colors: Sublime Monokai Theme v8.7.1
+Intellij Colors: Sublime Monokai Theme v8.7.2
 =========================================
 
 Dark color theme for Intellij inspired by Sublime Text&#39;s Monokai Theme. Also works in other Jetbrains products including Webstorm, PyCharm, GoLand, RubyMine, and PhPStorm.
