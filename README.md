@@ -5,7 +5,7 @@ Dark color theme for Intellij inspired by Sublime Text&#39;s Monokai Theme. Also
 
 To install 
 - Download or build the jar (buildJar.sh)
-- Intellij -> File -> Import Settings -> Select Jar (Or icls -> SublimeMonokai.xml)
+- Intellij -> File -> Manage IDE Settings -> Import Settings -> Select Jar (Or icls -> SublimeMonokai.xml)
 - Select Sublime Monokai as the theme in Settings -> Editor -> Colors & Fonts
 - Note: If you can't see "Import Settings" anymore, temporarily disable you Jetbrains Settings Sync(File -> Disable Settings Sync)
 
