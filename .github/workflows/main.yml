@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - nkroker-build-and-add-release
   workflow_dispatch: # Allow manual triggering
 
 jobs:
