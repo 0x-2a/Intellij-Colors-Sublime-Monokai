@@ -16,6 +16,8 @@ jobs:
 
       - name: Set up JDK
         uses: actions/setup-java@v4
+        with:
+          java-version: '14'
 
       - name: Build with inbuilt bash file
         run: bash buildjar.sh
