@@ -14,15 +14,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # - name: Set up JDK
-      #   uses: actions/setup-java@v1
-      #   with:
-      #     java-version: '11'
-
-      - name: Java Automatic Release
-        uses: Fulminazzo/java-automatic-release@v1
+      - name: Set up JDK
+        uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: '11'
+
+      # - name: Java Automatic Release
+      #   uses: Fulminazzo/java-automatic-release@v1
+      #   with:
+      #     java-version: 11
+
+      - name: Build with Maven
+        run: mvn package
 
       - name: Create release
         id: create_release
