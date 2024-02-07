@@ -1,11 +1,48 @@
-name: Java Automatic Release
-  # You may pin to the exact commit or the version.
-  # uses: Fulminazzo/java-automatic-release@14440fb4b43649107423bdf66bf51fe2e046490b
-  uses: Fulminazzo/java-automatic-release@v1
-  with:
-    # The Java version to use when setting up Java.
-    java-version: # optional, default is 11
-          
+name: Build and Release
 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allow manual triggering
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # - name: Set up JDK
+      #   uses: actions/setup-java@v1
+      #   with:
+      #     java-version: '11'
+
+      - name: Java Automatic Release
+        uses: Fulminazzo/java-automatic-release@v1
+        with:
+          java-version: 11
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release ${{ github.run_number }}
+          draft: false
+          prerelease: false
+
+      - name: Upload JAR file
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./target/your-jar-file.jar
+          asset_name: your-jar-file.jar
+          asset_content_type: application/java-archive
 
