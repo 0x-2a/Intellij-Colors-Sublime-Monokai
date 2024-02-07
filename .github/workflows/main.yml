@@ -1,4 +1,4 @@
-            - name: Java Automatic Release
+name: Java Automatic Release
   # You may pin to the exact commit or the version.
   # uses: Fulminazzo/java-automatic-release@14440fb4b43649107423bdf66bf51fe2e046490b
   uses: Fulminazzo/java-automatic-release@v1
@@ -6,3 +6,6 @@
     # The Java version to use when setting up Java.
     java-version: # optional, default is 11
           
+
+
+
