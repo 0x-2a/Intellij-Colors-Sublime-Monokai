@@ -18,7 +18,7 @@ jobs:
         uses: docker://openjdk:latest
 
       - name: Build with inbuilt bash file
-        run: bash buildjar.sh
+        run: ./buildjar.sh
 
       - name: Create release
         id: create_release
@@ -38,7 +38,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./target/your-jar-file.jar
-          asset_name: your-jar-file.jar
+          asset_path: ./SublimeMonoKai.jar
+          asset_name: SublimeMonoKai.jar
           asset_content_type: application/java-archive
-
